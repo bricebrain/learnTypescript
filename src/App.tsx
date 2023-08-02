@@ -33,6 +33,13 @@ function description (p:User):void {
  
 
 
+//type indexable 
+interface CollectionUser {
+  [propName:string] : any,
+  [propName:number] : {} 
+}
+
+
 
 function App() {
   const lenombre:number = 6 //
